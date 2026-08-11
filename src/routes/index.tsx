@@ -91,7 +91,7 @@ function Home() {
             </div>
 
             <a
-              href="/resume-phuong-thu-do.txt"
+              href="/resume.pdf"
               download
               className="mt-6 inline-flex w-fit items-center gap-2 text-sm font-medium text-jade-deep underline-offset-4 hover:underline"
             >
