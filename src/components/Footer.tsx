@@ -22,7 +22,7 @@ export function Footer() {
                 <Mail size={16} />
               </a>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/phuong-do-574a6813a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -31,7 +31,7 @@ export function Footer() {
                 <Linkedin size={16} />
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/lunatran15"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
