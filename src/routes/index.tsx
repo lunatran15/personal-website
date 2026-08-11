@@ -103,7 +103,7 @@ function Home() {
             <div className="absolute -inset-6 rounded-[2.5rem] bg-gradient-to-br from-jade/15 via-transparent to-gold/20 blur-2xl" />
             <div className="relative rounded-[2rem] border border-gold/40 bg-card p-3 shadow-xl">
               <img
-                src="public/images/Phuong Do.png"
+                src="images/Phuong Do.png"
                 alt="Portrait of Phuong Thu Do (Pallas Do)"
                 className="h-80 w-64 rounded-[1.5rem] object-cover sm:h-96 sm:w-80"
               />
