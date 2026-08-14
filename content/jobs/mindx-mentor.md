@@ -16,14 +16,14 @@ order: 2
 
 At MindX School, one of Vietnam's leading technology education institutions, I mentored aspiring Product Managers and Business Analysts, guiding them from foundational concepts to job-ready practice.
 
-**Responsibilities**
-- Designed course modules on product strategy, user research, requirements documentation, and Agile methodology.
-- Led hands-on workshops on writing user stories, building product roadmaps, and running stakeholder interviews.
-- Provided 1:1 and group mentorship on capstone projects, reviewing PRDs, wireframes, and prioritization frameworks.
-- Evaluated learner performance and provided structured, actionable feedback aligned to industry hiring expectations.
+**Responsibilities**<br>
+*-* Designed course modules on product strategy, user research, requirements documentation, and Agile methodology.<br>
+*-* Led hands-on workshops on writing user stories, building product roadmaps, and running stakeholder interviews.<br>
+*-* Provided 1:1 and group mentorship on capstone projects, reviewing PRDs, wireframes, and prioritization frameworks.<br>
+*-* Evaluated learner performance and provided structured, actionable feedback aligned to industry hiring expectations.<br>
 
-**Technologies Used**
-Figma, Axure, Trello, Jira, Google Analytics
+**Technologies Used**<br>
+Figma, Axure, Trello, Jira, Google Analytics<br>
 
-**Business Impact**
+**Business Impact**<br>
 Helped build a pipeline of job-ready Product Management and Business Analysis talent, strengthening MindX's placement outcomes and reputation as a leading tech-education provider in Vietnam.

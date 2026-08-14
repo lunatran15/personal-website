@@ -20,7 +20,21 @@ const LANGUAGES = [
 function Resume() {
   const jobs = [...allJobs].sort((a, b) => a.order - b.order)
   const educations = [...allEducations].sort((a, b) => a.order - b.order)
-  const certs = allAwards.filter((a) => a.type === 'Professional Certification')
+  const certs = [...allAwards]
+    .filter((a) =>
+      a.type === "Professional Certification" ||
+      a.type === "Competition Award",
+    )
+    .sort((a, b) => {
+      const priority = (t: string) =>
+        t === 'Professional Certification' ? 0 : t === 'Competition Award' ? 1 : 2
+
+      const pa = priority(a.type)
+      const pb = priority(b.type)
+      if (pa !== pb) return pa - pb
+
+      return new Date(a.date).getTime() - new Date(b.date).getTime()
+    })
 
   return (
     <div className="ink-wash-bg">
@@ -62,7 +76,7 @@ function Resume() {
                 RegTech.
               </p>
               <img
-                src="/headshot-on-white.jpg"
+                src="/images/phuong-do.png"
                 alt="Professional headshot of Phuong Thu Do"
                 className="h-52 w-44 rounded-2xl object-cover"
               />
@@ -81,7 +95,7 @@ function Resume() {
                     <div className="space-y-1">
                       <CardTitle className="text-xl">{job.jobTitle}</CardTitle>
                       <p className="font-medium text-jade-deep">
-                        {job.company} — {job.location}
+                        {job.company} - {job.location}
                       </p>
                     </div>
                     <Badge variant="secondary" className="w-fit text-sm">
@@ -128,15 +142,28 @@ function Resume() {
         {/* Education */}
         <section className="mt-14 space-y-6">
           <h2 className="font-display text-3xl text-ink">Education</h2>
+          
           <div className="space-y-6">
             {educations.map((education) => (
               <Card key={education.school}>
                 <CardHeader>
+                  <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-start">
+                    <div className="space-y-1">
                   <CardTitle className="text-xl">{education.degree}</CardTitle>
                   <p className="font-medium text-jade-deep">
                     {education.school}
-                    {education.location ? ` — ${education.location}` : ''}
+                    {education.location ? ` - ${education.location}` : ''}
                   </p>
+                     
+                    </div>
+                  <Badge variant="secondary" className="w-fit text-sm">
+                      {new Date(education.startDate).toLocaleDateString('en-US', { year: 'numeric', month: 'short' })}
+                      {' – '}
+                      {education.endDate
+                        ? new Date(education.endDate).toLocaleDateString('en-US', { year: 'numeric', month: 'short' })
+                        : 'Present'}
+                    </Badge>
+                  </div>
                 </CardHeader>
                 <CardContent>
                   <p className="leading-relaxed text-muted-foreground">{education.summary}</p>
@@ -161,14 +188,32 @@ function Resume() {
         <section className="mt-14 space-y-6">
           <h2 className="font-display text-3xl text-ink">Certifications</h2>
           <div className="grid gap-4 sm:grid-cols-2">
-            {certs.map((c) => (
-              <Card key={c.title}>
-                <CardContent className="pt-2">
-                  <p className="font-semibold text-ink">{c.title}</p>
-                  <p className="text-sm text-muted-foreground">{c.issuer}</p>
-                </CardContent>
-              </Card>
-            ))}
+            {certs.map((c) => {
+              const href = c.url ?? c.image
+
+              const card = (
+                <Card>
+                  <CardContent className="pt-2">
+                    <p className="font-semibold text-ink">{c.title}</p>
+                    <p className="text-sm text-muted-foreground">{c.issuer}</p>
+                  </CardContent>
+                </Card>
+              )
+
+              return href ? (
+                <a
+                  key={c.title}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:shadow-md"
+                >
+                  {card}
+                </a>
+              ) : (
+                <div key={c.title}>{card}</div>
+              )
+            })}
           </div>
         </section>
 

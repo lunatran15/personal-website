@@ -23,7 +23,7 @@ const STRENGTHS = [
   {
     icon: Users,
     title: 'Cross-Functional Leadership',
-    body: 'Leading distributed product, design, engineering, and QA teams across time zones and cultures — from Hanoi to Shenzhen to remote-first teams.',
+    body: 'Leading distributed product, design, engineering, and QA teams across time zones and cultures, from Hanoi to Shenzhen to remote-first teams.',
   },
   {
     icon: Cpu,
@@ -60,7 +60,7 @@ function About() {
           About Me
         </span>
         <h1 className="mt-3 font-display text-4xl text-ink sm:text-5xl">
-          A career built at the intersection of business, technology, and research
+          Building a career at the nexus of business strategy, technology, and applied research.
         </h1>
 
         <div className="mt-8 grid gap-6 md:grid-cols-2">
@@ -73,7 +73,7 @@ function About() {
             cybersecurity graduate research in China.
           </p>
           <p className="leading-relaxed text-muted-foreground">
-            I am drawn to the technologies reshaping trust itself — artificial
+            I am drawn to the technologies reshaping trust itself - artificial
             intelligence, blockchain security, and the regulatory systems that
             must keep pace with them. My vision is to lead at the intersection
             of product strategy and security research: building technology
@@ -131,7 +131,7 @@ function About() {
               <p className="font-display text-xl text-ink">Vision for the Future</p>
               <p className="mt-2 leading-relaxed text-muted-foreground">
                 To grow into a technology leader who bridges product strategy,
-                cybersecurity research, and AI governance — helping
+                cybersecurity research, and AI governance: helping
                 organizations build systems that are innovative,
                 globally-minded, and trustworthy by design.
               </p>

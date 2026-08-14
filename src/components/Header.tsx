@@ -8,10 +8,10 @@ const NAV_LINKS = [
   { to: '/about', label: 'About' },
   { to: '/resume', label: 'Resume' },
   { to: '/expertise', label: 'Expertise' },
-  { to: '/research', label: 'Research' },
+  // { to: '/research', label: 'Research' },
   { to: '/projects', label: 'Projects' },
   { to: '/blog', label: 'Blog' },
-  { to: '/publications', label: 'Publications' },
+  // {to: '/publications', label: 'Publications'},
   { to: '/contact', label: 'Contact' },
 ] as const
 

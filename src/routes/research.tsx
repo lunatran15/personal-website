@@ -32,7 +32,7 @@ function Research() {
                 {gradSchool?.summary}
               </p>
               <Badge className="mt-4" variant="secondary">
-                Research Direction: Blockchain Security on RegTech
+                Research Direction: Blockchain Security with Machine Learning 
               </Badge>
             </div>
           </CardContent>

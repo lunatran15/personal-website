@@ -1,8 +1,9 @@
 ---
 title: "Google UX Design Certification"
-issuer: "Google"
-date: "2022-08-01"
+issuer: "Coursera"
+date: "2023-07-15"
 type: "Professional Certification"
+url: "https://www.coursera.org/account/accomplishments/specialization/certificate/2VWAZKWAUYFR"
 order: 3
 ---
 

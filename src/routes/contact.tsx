@@ -16,27 +16,27 @@ function Contact() {
         <span className="text-xs font-medium uppercase tracking-widest text-gold">
           Get in Touch
         </span>
-        <h1 className="mt-3 font-display text-4xl text-ink sm:text-5xl">Contact</h1>
+        <h1 className="mt-3 font-display text-4xl text-ink sm:text-5xl">Contact me</h1>
         <p className="mt-4 max-w-xl text-muted-foreground">
           Have a question about product management, cybersecurity research,
-          or a potential collaboration? Reach out — I'd love to hear from
+          or a potential collaboration? Reach out - I'd love to hear from
           you.
         </p>
 
         <div className="mt-10 grid gap-10 md:grid-cols-[1fr_1.3fr]">
           <div className="space-y-4">
             <a
-              href="mailto:pallas.do@example.com"
+              href="mailto:pallasdo@outlook.com"
               className="flex items-center gap-3 rounded-xl border border-border p-4 transition-colors hover:border-jade"
             >
               <Mail className="text-jade-deep" size={20} />
               <div>
                 <p className="text-sm font-semibold text-ink">Email</p>
-                <p className="text-sm text-muted-foreground">pallas.do@example.com</p>
+                <p className="text-sm text-muted-foreground">Shoot an email for more info</p>
               </div>
             </a>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/phuong-do-574a6813a/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 rounded-xl border border-border p-4 transition-colors hover:border-jade"
@@ -48,7 +48,7 @@ function Contact() {
               </div>
             </a>
             <a
-              href="https://github.com/"
+              href="https://github.com/pallasphuongdo"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 rounded-xl border border-border p-4 transition-colors hover:border-jade"

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#e9d5ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)" />
+  <g fill="#0f172a" font-family="Inter, Arial, sans-serif">
+    <text x="60" y="120" font-size="48" font-weight="700">Featured article</text>
+    <text x="60" y="200" font-size="28" opacity="0.9">Placeholder image generated for blog posts</text>
+    <rect x="60" y="260" width="360" height="200" rx="12" fill="#0ea5a4" opacity="0.12" />
+    <text x="60" y="500" font-size="20" opacity="0.8">/images/blog-placeholder.svg</text>
+  </g>
+</svg>

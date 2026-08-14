@@ -1,15 +1,18 @@
 ---
-title: "Social Listening Application — Facebook Developer Circles"
+title: "Social Listening Application for apartment prices - Facebook Developer Circles"
 location: "Hanoi, Vietnam"
+startDate: "2020-06-01"
+endDate: "2020-09-01"
 description: "A social listening product built within the Facebook Developer Circles Hanoi community, combining data science and mobile engineering to surface actionable brand and market insights from social conversations."
-challenge: "Volunteer contributors across data science and mobile engineering needed a coordinated product plan to turn raw social-media signal into a usable, insight-generating application within a community-driven, part-time development structure."
-solution: "Defined the product strategy and requirements for a social listening application that aggregated and classified social media conversations, prioritizing features that balanced technical feasibility for a volunteer team with real user value for marketers and community managers."
 role: "Product Manager — set product strategy, defined requirements, and coordinated collaboration between the data science and mobile development workstreams."
-process: "Ran structured requirements sessions with the data science team to define sentiment and topic classification needs, then translated those into a mobile-first product spec, keeping the roadmap realistic for a volunteer-driven, Facebook Developer Circles Hanoi community project."
 result: "Delivered a working social listening prototype that demonstrated end-to-end sentiment and trend detection on social data, strengthening the case for social listening as an accessible product category for smaller organizations."
 lessons: "Learned how to manage product scope and stakeholder expectations in a volunteer, community-driven environment, and how to bridge data science outputs into product features that are legible to non-technical end users."
 techStack: ["Data Science / NLP pipeline", "Mobile Development", "Firebase", "Google Analytics"]
 tags: ["Product Management", "Data Science", "Mobile", "NLP", "Community"]
+image: projects\social-listening.png
+github: "https://github.com/pallasphuongdo/BB_app"
+design: "https://www.figma.com/proto/YVZMOlcW94hsBqrRSgdYiM/Barrier-Breakers?page-id=1%3A4&type=design&node-id=38-64&viewport=771%2C465%2C0.66&scaling=scale-down&starting-point-node-id=38%3A54&t=W7aVukV2oGWAEpW7-1"
+
 ---
 
 ## Overview

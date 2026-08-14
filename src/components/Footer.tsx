@@ -31,7 +31,7 @@ export function Footer() {
                 <Linkedin size={16} />
               </a>
               <a
-                href="https://github.com/lunatran15"
+                href="https://github.com/pallasphuongdo"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -48,7 +48,7 @@ export function Footer() {
               <li><Link className="hover:text-jade-deep" to="/about">About</Link></li>
               <li><Link className="hover:text-jade-deep" to="/resume">Resume</Link></li>
               <li><Link className="hover:text-jade-deep" to="/expertise">Expertise</Link></li>
-              <li><Link className="hover:text-jade-deep" to="/research">Research</Link></li>
+              {/*<li><Link className="hover:text-jade-deep" to="/research">Research</Link></li>*/}
             </ul>
           </div>
 
@@ -57,7 +57,7 @@ export function Footer() {
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
               <li><Link className="hover:text-jade-deep" to="/projects">Projects</Link></li>
               <li><Link className="hover:text-jade-deep" to="/blog">Blog</Link></li>
-              <li><Link className="hover:text-jade-deep" to="/publications">Publications</Link></li>
+             {/*<li><Link className="hover:text-jade-deep" to="/publications">Publications</Link></li>*/}
               <li><Link className="hover:text-jade-deep" to="/contact">Contact</Link></li>
             </ul>
           </div>

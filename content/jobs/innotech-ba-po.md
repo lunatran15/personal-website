@@ -17,15 +17,15 @@ order: 3
 
 As IT Business Analyst and Product Owner at Innotech Corporation, I led requirements analysis and backlog ownership for fintech and enterprise products, driving the organization's shift toward Agile delivery.
 
-**Responsibilities**
-- Owned and prioritized the product backlog, balancing business value, customer needs, and technical constraints.
-- Conducted stakeholder interviews and market analysis to define product requirements for fintech features.
-- Authored BRDs, functional specifications, and user stories, and validated delivered features against acceptance criteria.
-- Championed Agile transformation, coaching teams on Scrum ceremonies, sprint planning, and iterative delivery.
-- Tracked key product metrics (customer growth, traffic, engagement) using Google Analytics and Kibana dashboards.
+**Responsibilities**<br>
+*-* Owned and prioritized the product backlog, balancing business value, customer needs, and technical constraints.<br>
+*-* Conducted stakeholder interviews and market analysis to define product requirements for fintech features.<br>
+*-* Authored BRDs, functional specifications, and user stories, and validated delivered features against acceptance criteria.<br>
+*-* Championed Agile transformation, coaching teams on Scrum ceremonies, sprint planning, and iterative delivery.<br>
+*-* Tracked key product metrics (customer growth, traffic, engagement) using Google Analytics and Kibana dashboards.<br>
 
-**Technologies Used**
+**Technologies Used**<br>
 Jira, Confluence, Kibana, POSTMAN, Google Analytics, SQL, Figma
 
-**Business Impact**
+**Business Impact**<br>
 Contributed to fintech product delivery that grew active customer usage and site traffic, while establishing an Agile operating rhythm that improved cross-team delivery velocity.

@@ -49,9 +49,7 @@ function BlogIndex() {
           Blog &amp; Knowledge Sharing
         </h1>
         <p className="mt-4 max-w-2xl text-muted-foreground">
-          Editorial-style essays on AI &amp; machine learning, cybersecurity,
-          blockchain technology, product management, and the career &amp;
-          learning journey across three countries.
+          Exploring the intersection of emerging technology and human experience. I write about AI/ML, cybersecurity, blockchain, and product strategy, drawing on a career built across three continents. Beyond the code and roadmaps, I share the lessons of navigating global markets and the personal philosophies that shape my life.
         </p>
 
         <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
@@ -89,8 +87,13 @@ function BlogIndex() {
           >
             <Card className="overflow-hidden border-gold/40 bg-gradient-to-br from-secondary/60 to-card transition-shadow hover:shadow-lg">
               <CardContent className="grid gap-6 pt-2 md:grid-cols-[1fr_1.2fr] md:items-center">
-                <div className="flex aspect-video items-center justify-center rounded-xl bg-gradient-to-br from-jade/20 to-gold/20 font-display text-2xl text-jade-deep">
-                  {featured.category}
+                <div className="flex aspect-video items-center justify-center rounded-xl bg-gradient-to-br from-jade/20 to-gold/20 font-display text-2xl text-jade-deep overflow-hidden">
+                  {featured.image ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={featured.image} alt={featured.title} className="w-full h-full object-cover" />
+                  ) : (
+                    <div className="flex h-full w-full items-center justify-center">{featured.category}</div>
+                  )}
                 </div>
                 <div>
                   <Badge>{featured.category}</Badge>
@@ -118,19 +121,27 @@ function BlogIndex() {
             >
               <Card className="h-full cursor-pointer transition-shadow hover:shadow-md">
                 <CardHeader>
-                  <Badge variant="secondary" className="w-fit">{post.category}</Badge>
-                  <CardTitle className="mt-1 text-xl">{post.title}</CardTitle>
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <Calendar size={14} />
-                    <time>
-                      {new Date(post.date).toLocaleDateString('en-US', {
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric',
-                      })}
-                    </time>
-                    <span>·</span>
-                    <span className="inline-flex items-center gap-1"><Clock size={13} /> {post.readingTime}</span>
+                  <div className="flex items-start gap-4">
+                    {post.image && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={post.image} alt={post.title} className="h-20 w-32 rounded-md object-cover" />
+                    )}
+                    <div>
+                      <Badge variant="secondary" className="w-fit">{post.category}</Badge>
+                      <CardTitle className="mt-1 text-xl">{post.title}</CardTitle>
+                      <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <Calendar size={14} />
+                        <time>
+                          {new Date(post.date).toLocaleDateString('en-US', {
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric',
+                          })}
+                        </time>
+                        <span>·</span>
+                        <span className="inline-flex items-center gap-1"><Clock size={13} /> {post.readingTime}</span>
+                      </div>
+                    </div>
                   </div>
                 </CardHeader>
                 <CardContent>

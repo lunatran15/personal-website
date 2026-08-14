@@ -1,5 +1,5 @@
 ---
-title: "First Place — Climathon Business Competition 2018"
+title: "First Place - Climathon Business Competition 2018"
 issuer: "California State University, Long Beach (CSULB)"
 date: "2018-11-01"
 type: "Competition Award"

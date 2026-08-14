@@ -15,15 +15,17 @@ order: 4
 ---
 
 As a Freelance Product Owner, I partnered directly with founders and small teams to shape product direction and deliver MVPs under lean resource constraints.
+<br>
 
-**Responsibilities**
-- Defined product vision, scope, and roadmap in collaboration with founders and stakeholders.
-- Wrote and prioritized user stories and acceptance criteria for distributed development teams.
-- Ran lightweight user research and usability testing to validate assumptions before build investment.
-- Managed release planning and stakeholder communication across multiple concurrent client engagements.
+**Responsibilities**<br>
+*-* Defined product vision, scope, and roadmap in collaboration with founders and stakeholders.<br>
+*-* Wrote and prioritized user stories and acceptance criteria for distributed development teams.<br>
+*-* Ran lightweight user research and usability testing to validate assumptions before build investment.<br>
+*-* Managed release planning and stakeholder communication across multiple concurrent client engagements.<br>
 
-**Technologies Used**
+
+**Technologies Used**<br>
 Trello, Figma, Google Analytics, Firebase
 
-**Business Impact**
+**Business Impact**<br>
 Enabled resource-constrained startups to ship validated MVPs faster by providing structured product ownership without the overhead of a full-time hire.

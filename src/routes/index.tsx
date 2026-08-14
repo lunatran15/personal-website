@@ -19,8 +19,8 @@ export const Route = createFileRoute('/')({
 const HIGHLIGHTS = [
   {
     icon: Globe2,
-    title: 'International Experience',
-    body: 'Career and study spanning Vietnam, the United States, and China — a global lens on product and technology.',
+    title: 'Multinational Experience',
+    body: 'Career and study spanning from Vietnam, the United States, and China - a diverse lens on product and technology.',
   },
   {
     icon: BrainCircuit,
@@ -30,12 +30,12 @@ const HIGHLIGHTS = [
   {
     icon: ShieldCheck,
     title: 'Cybersecurity Research',
-    body: 'Master of Cybersecurity candidate at USTC, researching Blockchain Security on RegTech.',
+    body: 'Master of Cybersecurity candidate at USTC, researching Blockchain Security combined with Machine learning on RegTech.',
   },
   {
     icon: Blocks,
     title: 'AI & Blockchain Curiosity',
-    body: 'Active interest in AI security, blockchain architecture, and emerging technology at the edge of both.',
+    body: 'Active interest in AI security, blockchain architecture, machine learning and emerging technology at the edge of both.',
   },
 ]
 
@@ -65,12 +65,7 @@ function Home() {
               Enthusiast | AI &amp; Technology Professional
             </p>
             <p className="mt-4 max-w-xl leading-relaxed text-muted-foreground">
-              A technology professional bridging business, engineering,
-              cybersecurity research, and innovative product development —
-              with product leadership experience, a cybersecurity research
-              background, and a deep interest in AI, blockchain security, and
-              emerging technologies across Vietnam, the United States, and
-              China.
+             Hello there. I combine product, technology, and cybersecurity to turn complex ideas into meaningful digital products. With international experience across Product Management, Business Analysis, Project Management, FinTech, and UI/UX, I bring both strategic thinking and hands-on technical understanding to every challenge. My journey spans Vietnam, the United States, and China, from leading cross-functional teams to building products and researching Blockchain Security with Machine Learning. I’m always looking for opportunities to build, solve, and create impact at the intersection of business, technology, and innovation.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -103,7 +98,7 @@ function Home() {
             <div className="absolute -inset-6 rounded-[2.5rem] bg-gradient-to-br from-jade/15 via-transparent to-gold/20 blur-2xl" />
             <div className="relative rounded-[2rem] border border-gold/40 bg-card p-3 shadow-xl">
               <img
-                src="public/images/Phuong Do.png"
+                src="/images/phuong-do.png"
                 alt="Portrait of Phuong Thu Do (Pallas Do)"
                 className="h-80 w-64 rounded-[1.5rem] object-cover sm:h-96 sm:w-80"
               />

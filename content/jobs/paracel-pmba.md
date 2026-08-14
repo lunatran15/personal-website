@@ -14,17 +14,17 @@ achievements:
 order: 1
 ---
 
-As Project Manager and Business Analyst at Paracel Co, I direct remote, cross-functional teams through the full product delivery lifecycle — from requirements discovery and stakeholder alignment to release planning and post-launch review.
+As Project Manager and Business Analyst at Paracel Co, I direct remote, cross-functional teams through the full product delivery lifecycle: from requirements discovery and stakeholder alignment to release planning and post-launch review.
 
-**Responsibilities**
-- Facilitate discovery workshops with stakeholders to define product scope, success metrics, and constraints.
-- Translate business needs into detailed business requirement documents (BRDs), user stories, and acceptance criteria for engineering teams.
-- Manage sprint planning, backlog prioritization, and cross-team dependencies using Agile/Scrum practices.
-- Monitor delivery risk, budget, and timeline, escalating and resolving blockers proactively.
-- Partner with QA to define test plans and ensure releases meet business and technical acceptance criteria.
+**Responsibilities**<br>
+*-* Facilitate discovery workshops with stakeholders to define product scope, success metrics, and constraints.<br>
+*-* Translate business needs into detailed business requirement documents (BRDs), user stories, and acceptance criteria for engineering teams.<br>
+*-* Manage sprint planning, backlog prioritization, and cross-team dependencies using Agile/Scrum practices.<br>
+*-* Monitor delivery risk, budget, and timeline, escalating and resolving blockers proactively.<br>
+*-* Partner with QA to define test plans and ensure releases meet business and technical acceptance criteria.<br>
 
-**Technologies Used**
+**Technologies Used**<br>
 Jira, Trello, Confluence, POSTMAN, Google Analytics, SQL
 
-**Business Impact**
+**Business Impact**<br>
 Improved sprint predictability and stakeholder confidence by formalizing requirements documentation and Agile ceremonies across a fully remote, distributed team structure.

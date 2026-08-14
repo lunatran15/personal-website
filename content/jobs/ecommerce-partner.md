@@ -4,7 +4,7 @@ company: "Independent E-commerce Venture"
 location: "Delaware, Ohio, United States"
 startDate: "2013-12-01"
 endDate: "2019-08-31"
-summary: "Co-built and operated a U.S.-based e-commerce business, managing marketing, operations, and growth strategy across nearly six years — the foundation for a business-and-technology career path."
+summary: "Co-built and operated a U.S.-based e-commerce business, managing marketing, operations, and growth strategy across nearly six years - the foundation for a business-and-technology career path."
 tags: ["E-commerce", "Marketing", "Operations", "Business Strategy", "Growth"]
 achievements:
   - "Co-managed a US-based e-commerce operation for nearly six years, spanning marketing, logistics, and customer operations."
@@ -16,14 +16,21 @@ order: 5
 
 Based in Delaware, Ohio, I co-operated a U.S. e-commerce business for nearly six years, managing the full spectrum of running a direct-to-consumer operation.
 
+
 **Responsibilities**
-- Managed digital storefront operations, product merchandising, and customer service.
-- Executed marketing campaigns to drive traffic growth and customer acquisition.
-- Analyzed sales and customer data to inform inventory and marketing decisions.
-- Coordinated logistics, fulfillment, and vendor relationships.
+
+*-* Managed digital storefront operations, product merchandising, and customer service.<br>
+*-* Executed marketing campaigns to drive traffic growth and customer acquisition.<br>
+*-* Analyzed sales and customer data to inform inventory and marketing decisions.<br>
+*-* Coordinated logistics, fulfillment, and vendor relationships.
+
+
 
 **Technologies Used**
+
 WordPress, Google Analytics, Adobe Suite
 
+
 **Business Impact**
+
 Built a durable foundation in customer-centric business operations and U.S. market experience that directly informed a later transition into product management and technology.

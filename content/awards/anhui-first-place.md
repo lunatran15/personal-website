@@ -1,8 +1,9 @@
 ---
-title: "First Place — Anhui Entrepreneurship College Student Competition"
+title: "First Place - Anhui Entrepreneurship College Student Competition"
 issuer: "Anhui Province, China"
-date: "2025-05-01"
+date: "2024-12-01"
 type: "Competition Award"
+image: "/certifications/giai-nhat.jpg"
 order: 1
 ---
 

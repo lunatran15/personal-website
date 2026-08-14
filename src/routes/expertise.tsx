@@ -46,7 +46,7 @@ function Expertise() {
           Skills &amp; Expertise Dashboard
         </h1>
         <p className="mt-4 max-w-2xl text-muted-foreground">
-          A working toolkit spanning software development, cloud platforms,
+          A list spanning software development, cloud platforms,
           product tooling, design, and project management methodology —
           built across product, engineering, and research roles.
         </p>
