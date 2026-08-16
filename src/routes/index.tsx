@@ -135,7 +135,7 @@ function Home() {
         <div className="mx-auto grid max-w-7xl grid-cols-2 gap-8 px-5 py-14 lg:grid-cols-4 lg:px-10">
           {[
             { value: `${allJobs.length}`, label: 'Professional roles' },
-            { value: '2', label: 'Featured product launches' },
+            { value: '10+', label: 'Overall years of experiences' },
             { value: `${allAwards.length}`, label: 'Awards & certifications' },
             { value: '3', label: 'Languages spoken' },
           ].map((s) => (
